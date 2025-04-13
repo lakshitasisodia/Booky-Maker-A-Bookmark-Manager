@@ -91,19 +91,12 @@ If you find any bugs, open an issue or suggest a PR 💬
 
 ---
 
-## 📸 Preview
-
-| Desktop | Mobile |
-|--------|--------|
-| ![Desktop View](./assets/desktop.png) | ![Mobile View](./assets/mobile.png) |
-
----
 
 ## 👩‍💻 Created By
 
 **Lakashita Sisodia**  
 💼 Personal Branding & Web Wizard  
-🌐 [Instagram](https://instagram.com/lakashitasisodia) | 🐙 [GitHub](https://github.com/lakshitasisodia) | 💼 [LinkedIn](https://linkedin.com/in/lakashita-sisodia)
+🐙 [GitHub](https://github.com/lakshitasisodia) | 💼 [LinkedIn](https://in.linkedin.com/in/lakshita-singh-sisodia-796266290)
 
 ---
 
