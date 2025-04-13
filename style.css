@@ -1,0 +1,174 @@
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+.cardholder
+{
+    padding: 1rem;
+    position: relative;
+}
+.initial
+{
+    position: fixed;
+    background-color: white;
+    height: 40%;
+    width: 40%;
+    bottom: 30%;
+    right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: grey;
+}
+.card{
+    height: 200px;
+    background-color: wheat;
+    border-radius: 1rem;
+    width: 200px;
+    cursor: pointer;
+}
+.delete-btn
+{
+    background-color: wheat;
+    border: none;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.card img{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.adder{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    height: 3rem;
+    background-color: wheat;
+    width: 4rem;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.adderedbox
+{
+    position: fixed;
+    height: 200px;
+    background-color: rgb(247, 240, 229);
+    z-index: 99;
+    bottom: 40%;
+    right: 40%;
+    width: 250px;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+.adderedbox input
+{
+    height: 30px;
+    border: none;
+    background-color: #00000050;
+    padding: 10px;
+    color: white;
+}
+.adderedbox button
+{
+    height: 25px;
+    width: 50px;
+}
+
+
+/* Media query for tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+        margin: 1.5rem;
+    }
+
+    .initial {
+        width: 70%;
+        height: 30%;
+        right: 15%;
+        bottom: 35%;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .card {
+        width: 150px;
+        height: 180px;
+    }
+
+    .adder {
+        height: 2.5rem;
+        width: 3rem;
+        right: 20px;
+    }
+
+    .adderedbox {
+        width: 220px;
+        right: 30%;
+        bottom: 35%;
+    }
+
+    .adderedbox input {
+        width: 90%;
+    }
+}
+
+/* Media query for phones (480px and below) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+    .initial {
+        width: 90%;
+        height: 25%;
+        right: 5%;
+        bottom: 35%;
+        font-size: small;
+        text-align: center;
+    }
+
+    .card {
+        width: 130px;
+        height: 160px;
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    .adder {
+        height: 2.5rem;
+        width: 2.5rem;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .adderedbox {
+        width: 250px;
+        right: 15%;
+        bottom: 40%;
+    }
+
+    .adderedbox input {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .adderedbox button {
+        font-size: 0.8rem;
+        height: 25px;
+        width: 60px;
+    }
+}
